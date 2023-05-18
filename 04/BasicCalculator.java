@@ -1,18 +1,8 @@
 // WAP in Java to calculate the addition, subtraction, multiplication and division of two numbers
 
-import java.util.Scanner;
-
-public class Calculator {
+public class BasicCalculator {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Enter first number");
-        float a = scanner.nextFloat();
-
-        System.out.println("Enter second number");
-        float b = scanner.nextFloat();
-
-        scanner.close();
+        float a = 54f, b = 78f;
 
         System.out.println("Calculation");
         add(a, b);
