@@ -2,7 +2,7 @@ public class InstanceVariable {
     public String name;
 
     public InstanceVariable() {
-        this.name = "Code Wizard";
+        this.name = "Coconut";
     }
 
     public static void main(String[] args) {
