@@ -1,4 +1,4 @@
-// WAP in Java to calculate the addition, subtraction, multiplication and division of two numbers
+// WAP in Java to calculate the addition, subtraction, multiplication and division of two given numbers
 
 import java.util.Scanner;
 
