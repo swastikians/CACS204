@@ -6,6 +6,7 @@ public class Calculator {
     public static void main(String[] args) {
         System.out.println("Enter an expression (eg: a+b)");
         Scanner scanner = new Scanner(System.in);
+        // /^(?<n1>\d+)\W?(?<op>\+|\-|\*|\/)\W?(?<n2>\d+)$/
         Pattern pattern = Pattern.compile("^(?<n1>\\d+)\\W?(?<op>\\+|\\-|\\*|\\/)\\W?(?<n2>\\d+)$");
         Matcher matcher = pattern.matcher(scanner.nextLine());
 
