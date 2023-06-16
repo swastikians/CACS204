@@ -21,6 +21,7 @@ class Example {
     }
 
     public void display() {
+        this.print();
         System.out.println("Hello from example " + this.value);
     }
 }
