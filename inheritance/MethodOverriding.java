@@ -11,7 +11,7 @@ public class MethodOverriding {
         nepaliPerson.greet();
 
         System.out.println();
-        
+
         American amrikan = new American();
         amrikan.greet();
     }   
@@ -23,13 +23,13 @@ class Human {
     }
 }
 
-class Nepali {
+class Nepali extends Human {
     public void greet() {
         System.out.println("Nepali: Namaste!");
     }
 }
 
-class American {
+class American  extends Human {
     public void greet() {
         System.out.println("American: Yo what's up bro?");
     }
