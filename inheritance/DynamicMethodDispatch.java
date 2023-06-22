@@ -2,19 +2,15 @@ package inheritance;
 
 public class DynamicMethodDispatch {
     public static void main(String[] args) {
-        Apple apple = new Apple();
-        Google google = new Google();
-        Microsoft microsoft = new Microsoft();
-
         Tech instance;
 
-        instance = apple;
+        instance = new Apple();
         instance.display();
 
-        instance = google;
+        instance = new Google();
         instance.display();
 
-        instance = microsoft;
+        instance = new Microsoft();
         instance.display();
     }
 }
