@@ -13,7 +13,7 @@ public class Concat {
         // method 2
         System.out.println(a.concat(b).concat(n + c));
 
-        String demo = 50 + 30 + "Hello" + 80;
+        String demo = 50 + 30 + "Hello" + 80 + 30;
         System.out.println(demo);
     }
 }
