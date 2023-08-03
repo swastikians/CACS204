@@ -12,6 +12,6 @@ public class IntegerToString {
 
         Double d = 10.5;
 
-        System.out.println(d.toString());
+        System.out.println(String.valueOf(d));
     }
 }
